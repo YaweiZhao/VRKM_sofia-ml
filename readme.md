@@ -1,5 +1,5 @@
 # Introduction
-#### This is the source code of our submission named "Large-scale k-means clustering via variance reduction". We propose a variance reduced k-means clustering method: VRKM. It is implemented based on a packet: sofia-ml (http://code.google.com/p/sofia-ml). 
+#### This is the source code of the variance reduced k-means clustering methods. It is implemented based on a packet: sofia-ml (http://code.google.com/p/sofia-ml). 
 
 # Source code
 
@@ -25,12 +25,12 @@ eta
 ```
 # Use
 
-* Compilation
+* Compile
 ```
 cd /path/to/cluster-src/
 make
 ```
-Note that the configurations in cluster-src/Makefile should be modified for your own runtime environment. 
+Note that the configurations in *cluster-src/Makefile* should be modified for your own runtime environment. 
 
 * Execution
 
@@ -85,10 +85,13 @@ The acceleration is significant. We conduct k-means clustering on four datasets:
 * Caltech-256 (http://www.vision.caltech.edu/Image_Datasets/Caltech256/)
 
 Then we obtain the more than 4x speedup when conducting clustering on those images. The evaluations are presented in the following figures.
-
+* Oxford
 ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_oxford-1.png)
+* Pittsbour
 ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_pitts-1.png)
+* CIFAR-100
 ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_CIFAR-1.png)
+* Caltech-256
 ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_caltech-1.png)
 
 
