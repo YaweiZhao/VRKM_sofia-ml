@@ -87,6 +87,7 @@ The acceleration is significant. We conduct k-means clustering on four datasets:
 Then we obtain the more than $4\times$ speedup when conducting clustering on those images. For example: 
 
  ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_CIFAR.pdf)
+  ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/2017-11-03_20-21-38.png)
 
 # Contact
 #### Please contact us (ywming@nudt.edu.cn, zhaoyawei@nudt.edu.cn) when you have some problems about the source code.
