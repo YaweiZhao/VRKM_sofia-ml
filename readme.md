@@ -92,8 +92,8 @@ Then we obtain the more than 4x speedup when conducting clustering on those imag
 </center>
 
 <center class="half">
-    <img src="https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_CIFAR-1.png">
-    <img src="https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_caltech-1.png">
+    <img src="https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_CIFAR-1.png" width="400">
+    <img src="https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_caltech-1.png" width="400">
 </center>
 
 
