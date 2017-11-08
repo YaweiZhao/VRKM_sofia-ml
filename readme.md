@@ -79,15 +79,18 @@ Default: mini_batch_kmeans
 # Numerical results
 The acceleration is significant. We conduct k-means clustering on four datasets:
 
-* Oxford (http://www.robots.ox.ac.uk/ vgg/data/oxbuildings/)
-* Pittsbour (http://www.ok.ctrl.titech.ac.jp/ torii/pro ject/repttile/)
-* CIFAR-100 (http://www.cs.toronto.edu/ kriz/cifar.html)
+* Oxford (http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/)
+* Pittsbour (http://www.ok.ctrl.titech.ac.jp/~torii/pro ject/repttile/)
+* CIFAR-100 (http://www.cs.toronto.edu/~kriz/cifar.html)
 * Caltech-256 (http://www.vision.caltech.edu/Image_Datasets/Caltech256/)
 
-Then we obtain the more than $4\times$ speedup when conducting clustering on those images. For example: 
+Then we obtain the more than 4x speedup when conducting clustering on those images. The evaluations are presented in the following figures.
 
- ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_CIFAR.pdf)
-  ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/2017-11-03_20-21-38.png)
+ ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_oxford-1)
+ ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_pitts-1)
+ ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_CIFAR-1)
+ ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_caltech-1)
+
 
 # Contact
 #### Please contact us (ywming@nudt.edu.cn, zhaoyawei@nudt.edu.cn) when you have some problems about the source code.
