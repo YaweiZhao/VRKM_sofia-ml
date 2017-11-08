@@ -3,7 +3,6 @@
 
 # Source code
 
-写下算法实现在那个文件里？输入参数什么意义？输出是什么？
 The main implementation of our algorithm is in the file "cluster-src/sf-kmeans-methods.cc". We add a function in the file and implement our algorithm in it.
 ```
 void SVRGKmeans(int num_iterations,
@@ -25,8 +24,6 @@ eta
   Learning rate.
 ```
 # Use
-
-怎么使用这个程序包？怎么编译和运行
 
 * Compilation
 ```
@@ -80,7 +77,16 @@ Default: mini_batch_kmeans
 ```
 
 # Numerical results
-这一部分我来写
+The acceleration is significant. We conduct k-means clustering on four datasets:
+
+* Oxford (http://www.robots.ox.ac.uk/ vgg/data/oxbuildings/)
+* Pittsbour (http://www.ok.ctrl.titech.ac.jp/ torii/pro ject/repttile/)
+* CIFAR-100 (http://www.cs.toronto.edu/ kriz/cifar.html)
+* Caltech-256 (http://www.vision.caltech.edu/Image_Datasets/Caltech256/)
+
+Then we obtain the more than $4\times$ speedup when conducting clustering on those images. For example: 
+
+ ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/images/figure_cp_oxford.pdf)
 
 # Contact
 #### Please contact us (ywming@nudt.edu.cn, zhaoyawei@nudt.edu.cn) when you have some problems about the source code.
