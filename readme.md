@@ -79,12 +79,9 @@ Default: mini_batch_kmeans
 # Numerical results
 The acceleration is significant. For example, we conduct k-means clustering on the dataset: Pittsbour (http://www.ok.ctrl.titech.ac.jp/~torii/project/repttile/).
 
-Then we obtain the more than 5x speedup. The evaluations are presented in the following figures.
+Then we obtain the more than 5x speedup. The evaluations are presented in the following figure.
 
-![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_pitts-1.png)
-
-
-
+ ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_pitts-1.png)
 
 
 # Contact
