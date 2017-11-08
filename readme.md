@@ -77,29 +77,11 @@ Default: mini_batch_kmeans
 ```
 
 # Numerical results
-The acceleration is significant. We conduct k-means clustering on four datasets:
+The acceleration is significant. For example, we conduct k-means clustering on the dataset: Pittsbour (http://www.ok.ctrl.titech.ac.jp/~torii/project/repttile/).
 
-* Oxford (http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/)
-* Pittsbour (http://www.ok.ctrl.titech.ac.jp/~torii/project/repttile/)
-* CIFAR-100 (http://www.cs.toronto.edu/~kriz/cifar.html)
-* Caltech-256 (http://www.vision.caltech.edu/Image_Datasets/Caltech256/)
-
-Then we obtain the more than 4x speedup when conducting clustering on those images. The evaluations are presented in the following figures.
-* Oxford
-
- ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_oxford-1.png) 
-
-* Pittsbour
+Then we obtain the more than 5x speedup. The evaluations are presented in the following figures.
 
 ![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_pitts-1.png)
-
-* CIFAR-100
-
-![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_CIFAR-1.png)
-
-* Caltech-256
-
-![image](https://github.com/YaweiZhao/VRKM_sofia-ml/blob/master/images/figure_cp_caltech-1.png)
 
 
 
