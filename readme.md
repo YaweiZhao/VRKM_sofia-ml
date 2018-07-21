@@ -101,7 +101,8 @@ Then we obtain the more than 5x speedup. The evaluations are presented in the fo
 
 # More details
 If this project is helpful for you, please cite our paper as follows.
-```@article{Zhao:2018NEU,
+```
+@article{Zhao:2018NEU,
  author = {Zhao, Yawei and Ming, Yuewei and Zhao, Kaikai and Liu, Xinwang and Zhu, En and  Yin, Jianping},
  title = {Large-scale k-means clustering via variance reduction},
  journal = {Elsevier Neurocomputing},
