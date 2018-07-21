@@ -1,6 +1,7 @@
 # Introduction
 #### This is the source code of the variance reduced k-means clustering methods. It is implemented based on a packet: sofia-ml (http://code.google.com/p/sofia-ml). If this project is helpful for you, please cite our paper as follows.
-```@article{Zhao:2018NEU,
+``` 
+@article{Zhao:2018NEU,
  author = {Zhao, Yawei and Ming, Yuewei and Zhao, Kaikai and Liu, Xinwang and Zhu, En and  Yin, Jianping},
  title = {Large-scale k-means clustering via variance reduction},
  journal = {Elsevier Neurocomputing},
